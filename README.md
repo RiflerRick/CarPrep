@@ -104,7 +104,3 @@ Because HTTP is stateless, it makes it repetitive and so a lot of the data from 
 One of the drawbacks of HTTP1.1 is that when an http message has been sent off with a content-length of a certain size, you cant easily just stop it. it is possible to simply terminate the connection but then we need to make another connection using a TCP handshake which would require more resources. 
 
 The **RST_STREAM** frame essentially can stop the current message and start anew. 
-
-
-
-
